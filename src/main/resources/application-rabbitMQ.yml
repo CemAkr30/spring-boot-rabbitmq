@@ -1,0 +1,6 @@
+spring:
+  rabbitmq:
+    template:
+      exchange: notificationExchange
+      routing-key: notificationRoutingKey
+      default-receive-queue: notificationQueue
